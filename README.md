@@ -10,7 +10,7 @@ A full-stack authentication system built with React, Express, and PostgreSQL. It
 
 | Dashboard | Admin panel |
 | --- | --- |
-| ![Dashboard](docs/screenshots/Dashboard.png) | ![Admin](docs/screenshots/admin.png) |
+| ![Dashboard](docs/screenshots/dashboard.png) | ![Admin](docs/screenshots/admin.png) |
 
 ### Tests
 ![Tests](docs/screenshots/tests.png)
