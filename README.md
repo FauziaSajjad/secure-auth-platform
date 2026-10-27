@@ -2,18 +2,18 @@
 
 A full-stack authentication system built with React, Express, and PostgreSQL. It covers the flows real apps need (verification, reset, sessions, roles) and defends against common OWASP Top 10 risks.
 
-![Login](docs/screenshots/Login.PNG)
+![Login](docs/screenshots/Login.png)
 
 | Sign in | Reset password |
 | --- | --- |
-| ![Sign in](docs/screenshots/signin.PNG) | ![Reset password](docs/screenshots/reset-password.PNG) |
+| ![Sign in](docs/screenshots/signin.png) | ![Reset password](docs/screenshots/reset-password.png) |
 
 | Dashboard | Admin panel |
 | --- | --- |
-| ![Dashboard](docs/screenshots/Dashboard.PNG) | ![Admin](docs/screenshots/admin.PNG) |
+| ![Dashboard](docs/screenshots/Dashboard.png) | ![Admin](docs/screenshots/admin.png) |
 
 ### Tests
-![Tests](docs/screenshots/tests.PNG)
+![Tests](docs/screenshots/tests.png)
 
 
 ## Features
