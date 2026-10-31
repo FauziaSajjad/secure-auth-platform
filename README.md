@@ -1,5 +1,7 @@
 # Secure Authentication Platform
 
+Live demo:https://secure-auth-platform.vercel.app/
+
 A full-stack authentication system built with React, Express, and PostgreSQL. It covers the flows real apps need (verification, reset, sessions, roles) and defends against common OWASP Top 10 risks.
 
 ![Login](docs/screenshots/login.png)
