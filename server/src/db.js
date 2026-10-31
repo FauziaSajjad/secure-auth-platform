@@ -3,7 +3,7 @@ const config = require('./config');
 
 const pool = new Pool({
   connectionString: config.databaseUrl,
-  max: 10,
+  max: Number(process.env.DB_POOL_MAX) || 10, // keep this small on serverless hosts
   idleTimeoutMillis: 30000,
   connectionTimeoutMillis: 15000, // serverless Postgres can take a moment to wake up
 });

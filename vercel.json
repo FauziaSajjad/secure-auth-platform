@@ -1,0 +1,13 @@
+{
+  "installCommand": "npm install --prefix client --include=dev && npm install --prefix server --omit=dev",
+  "buildCommand": "npm run build --prefix client",
+  "outputDirectory": "client/dist",
+  "regions": ["sin1"],
+  "functions": {
+    "api/index.js": { "includeFiles": "server/**", "maxDuration": 15 }
+  },
+  "rewrites": [
+    { "source": "/api/(.*)", "destination": "/api" },
+    { "source": "/(.*)", "destination": "/index.html" }
+  ]
+}
